@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Wordpress App Builder",
+    "slug": "wordpress-app-builder",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "In seconds your WordPress site becomes a Native App.\nThe WordPress Gutenberg editor is the inspiration behind my quest.\nImagine being able to add and manipulate components just as you would on using a visual editor on WordPress.\n\nCollaborators are welcomed!",
+    "githubUrl": "https://github.com/DanielAlongE/wordpress-app-react-expo"
+  }
+}
