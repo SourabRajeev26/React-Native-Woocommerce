@@ -12,12 +12,15 @@ workflows:
         scripts:
             - npm install
             # - echo "sdk.dir=$HOME/programs/android-sdk-macosx" > "$FCI_BUILD_DIR/android/local.properties"
-            -  react-native run-android
-                build Android
-                cd android
-                ./gradlew assembleDebug
-            
-               
+            # - |
+            #     # build Android
+            #     cd android
+            #     ./gradlew assembleDebug
+            # - |
+            #     # build iOS
+            #     # cd ios
+            #     # pod install
+            #     # xcodebuild build -workspace "$XCODE_WORKSPACE.xcworkspace" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         artifacts:
             - android/app/build/outputs/**/*.apk
             # - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
